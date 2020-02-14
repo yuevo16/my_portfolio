@@ -1,0 +1,33 @@
+.center {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  height: 100vh;
+  width: 70vw;
+  display: block;
+  .sns {
+    height: 100vh;
+    width: 70vw;
+    
+    &__title {
+      height: 15vh;
+      font-size: 3em;
+      line-height: 3em;
+    }
+    &__body {
+      height: 80vh;
+      font-size: 1.5em;
+      display: flex;
+      justify-content: space-between;
+      &__mypage {
+        .samune {
+          border-radius: 50%;
+        }
+        &__text {
+          .text {
+            font-size: 0.7em;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

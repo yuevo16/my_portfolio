@@ -1,0 +1,31 @@
+.center {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  height: 100vh;
+  width: 70vw;
+  display: block;
+  .profile {
+    &__title {
+      height: 15vh;
+      font-size: 3em;
+      line-height: 3em;
+    }
+    &__body {
+      height: 80vh;
+      font-size: 1.5em;
+      &__photo {
+        height: 25vh;
+        text-align: center;
+      }
+      &__text {
+        height: 60vh;
+        .prf_word {
+          margin-bottom: 0.5em;
+        }
+        .prf_words {
+          margin-top: 0.2em;
+          margin-left: 4em;
+        }
+      }
+    }
+  }
+}

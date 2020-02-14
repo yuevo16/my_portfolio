@@ -1,0 +1,23 @@
+.main
+  = render "left"
+  .center
+    .sns
+      .sns__title
+        SNS
+      .sns__body
+        .sns__body__mypage
+          = image_tag "サムネ.png", size:"250x250", class: "samune"
+          %a.twitter-follow-button{"data-show-count" => "false", "data-show-screen-name" => "false", "data-size" => "large", :href => "https://twitter.com/yuevo16_3?ref_src=twsrc%5Etfw"}
+            Follow @yuevo16_3
+          %script{:async => "", :charset => "utf-8", :src => "https://platform.twitter.com/widgets.js"}
+          .sns__body__mypage__text
+            %span{"class"=>"text"} プログラミング×英会話で人生変えます💪
+            %span{"class"=>"text"} 高専卒⇨大手新卒入社⇨塾講師副業⇨全て辞めてTECH::EXPERT66期へ
+            %span{"class"=>"text"} ⇨卒業後、就活＆英会話も勉強中
+            %span{"class"=>"text"} プログラミングと英会話で有益だと思った情報や、
+            %span{"class"=>"text"} アウトプットした内容をつぶやきます！みんなで共有し合いましょう✨
+        .sns__body__timeline
+          %a.twitter-timeline{:href => "https://twitter.com/yuevo16_3?ref_src=twsrc%5Etfw",width: "400px",height: "600px"}
+            Tweets by yuevo16_3
+          %script{:async => "", :charset => "utf-8", :src => "https://platform.twitter.com/widgets.js"}
+  = render "right"

@@ -1,0 +1,16 @@
+.left
+  .left__name
+    
+  .left__lists
+    .left__lists__profile
+      = link_to profile_users_path, class:'profile' do
+        profile
+    .left__lists__portfolio
+      = link_to portfolio_users_path, class:'portfolio' do
+        portfolio
+    .left__lists__sns
+      = link_to sns_users_path, class:'sns' do
+        sns
+    .left__lists__contact
+      = link_to contact_users_path, class:'contact' do
+        contact

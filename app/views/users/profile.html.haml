@@ -1,0 +1,22 @@
+.main
+  = render "left"
+  .center
+    .profile
+      .profile__title
+        Profile
+      .profile__body
+        .profile__body__photo
+          = image_tag "ItunesArtwork@2x.png", size:"200x200" do
+            写真
+        .profile__body__text
+          .span{"class"=>"prf_word"} 氏　名：西村 佑也
+          .span{"class"=>"prf_word"} 出　身：徳島県
+          .span{"class"=>"prf_word"} 住　所：徳島→神奈川→鹿児島→静岡→東京
+          .span{"class"=>"prf_word"} 経　歴：某国立高専卒→某空調メーカーのサービス部門に約８年勤務
+          .span{"class"=>"prf_word"} 部　活：バスケットボール部（小４から高３まで）
+          .span{"class"=>"prf_word"} 学習歴：プログラミングスクールTECH::EXPERT66期生として
+          .span{"class"=>"prf_words"} 未経験から本格的にプログラミング学習開始
+          .span{"class"=>"prf_words"} Ruby、Ruby on Rails、HTML、Haml、CSS、SCSS、
+          .span{"class"=>"prf_words"} JavaScript、jQuery、GitHub、AWS
+          .span{"class"=>"prf_words"} これらを用いて学習、チーム開発を行う。
+  = render "right"

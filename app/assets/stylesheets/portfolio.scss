@@ -1,0 +1,41 @@
+.center {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  height: 100vh;
+  width: 70vw;
+  display: block;
+  .portfolio {
+    &__title {
+      height: 15vh;
+      font-size: 3em;
+      line-height: 3em;
+    }
+    &__body {
+      height: 80vh;
+      font-size: 1.5em;
+      &__content1 {
+        margin-top: 1em;
+        display: flex;
+        &__text {
+          height: 10vh;
+          width: 30vw;
+          margin: auto;
+          display: block;
+          text-align: 3em;
+          text-decoration: none;
+        }
+      }
+      &__content2 {
+        margin-top: 1em;
+        display: flex;
+        &__text {
+          height: 10vh;
+          width: 30vw;
+          margin: auto;
+          display: block;
+          text-align: 3em;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

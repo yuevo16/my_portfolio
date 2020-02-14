@@ -1,0 +1,32 @@
+.center {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  height: 100vh;
+  width: 70vw;
+  &__title {
+    background-color: rgb(83, 184, 243);
+    height: 15vh;
+    font-size: 3em;
+    line-height: 3em;
+  }
+  &__body {
+    background-color: rgb(178, 63, 245);
+    height: 80vh;
+    font-size: 1.5em;
+    &__photo {
+      background-color: rgb(82, 112, 247);
+      height: 25vh;
+      text-align: center;
+    }
+    &__text {
+      background-color: rgb(178, 192, 250);
+      height: 60vh;
+      .prf_word {
+        margin-bottom: 0.5em;
+      }
+      .prf_words {
+        margin-top: 0.2em;
+        margin-left: 4em;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.right {
+  height: 100vh;
+  width: 10vw;
+  display: flex;
+  &__englishName {
+    font-family: 'PT Serif', serif;
+    height: 15em;
+    width: 2em;
+    font-size: 1em;
+    margin-top: 5em;
+    margin-right: 1em;
+    display: flex;
+    .word {
+      color: #999;
+      writing-mode: vertical-rl;
+    }
+  }
+  &__japanName {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    height: 8em;
+    width: 1em;
+    display: flex;
+    font-size: 2em;
+    &__content {
+      text-decoration: none;
+      margin-top: 2em;
+      .words {
+        color: black;
+      }
+    }
+  }
+}
