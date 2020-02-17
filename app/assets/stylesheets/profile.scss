@@ -15,6 +15,9 @@
       &__photo {
         height: 25vh;
         text-align: center;
+        .myphoto {
+          border-radius: 20%;
+        }
       }
       &__text {
         height: 60vh;
