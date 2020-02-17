@@ -45,7 +45,7 @@ group :development, :test do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
-
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -84,8 +84,6 @@ gem 'omniauth-google-oauth2'
 gem "omniauth-rails_csrf_protection"
 gem 'active_hash'
 gem 'bcrypt-ruby', '~> 3.0.0'
-gem 'gretel'
-gem 'mini_magick'
 
 group :production do
   gem 'unicorn', '5.4.1'
