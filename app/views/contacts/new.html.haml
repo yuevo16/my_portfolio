@@ -1,4 +1,6 @@
 .main
   = render "users/left"
   = render 'form'
+  .hide
+    = link_to "_", letter_opener_web_path, class: "hide__button"
   = render "users/right"

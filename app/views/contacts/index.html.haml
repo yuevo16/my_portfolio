@@ -1,25 +1,33 @@
-%h1 Listing contacts
+.contacts
+  Thank you for a message!
+  .contacts__path
+    = link_to "戻る", root_path, class: "contacts__path__button"
 
-%table
-  %thead
-    %tr
-      %th Name
-      %th Email
-      %th Content
-      %th
-      %th
-      %th
 
-  %tbody
-    - @contacts.each do |contact|
-      %tr
-        %td= contact.name
-        %td= contact.email
-        %td= contact.content
-        %td= link_to 'Show', contact
-        %td= link_to 'Edit', edit_contact_path(contact)
-        %td= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' }
 
-%br
 
-= link_to 'New Contact', new_contact_path
+-# %h1 Listing contacts
+
+-# %table
+-#   %thead
+-#     %tr
+-#       %th Name
+-#       %th Email
+-#       %th Content
+-#       %th
+-#       %th
+-#       %th
+
+-#   %tbody
+-#     - @contacts.each do |contact|
+-#       %tr
+-#         %td= contact.name
+-#         %td= contact.email
+-#         %td= contact.content
+-#         %td= link_to 'Show', contact
+-#         %td= link_to 'Edit', edit_contact_path(contact)
+-#         %td= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' }
+
+-# %br
+
+-# = link_to 'New Contact', new_contact_path
