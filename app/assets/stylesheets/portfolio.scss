@@ -13,27 +13,59 @@
       height: 80vh;
       font-size: 1.5em;
       &__content1 {
-        margin-top: 1em;
         display: flex;
-        &__text {
-          height: 10vh;
+        margin-top: 1em;
+        &__link {
           width: 30vw;
-          margin: auto;
-          display: block;
-          text-align: 3em;
-          text-decoration: none;
+          &__text {
+            margin-bottom: 1em;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+          }
+          &__url {
+            margin-left: 2em;
+            margin-top: 2em;
+            font-size: 0.8em;
+            display: flex;
+            &__basic {
+              .id {
+                margin-left: 1em;;
+                display: block;
+              }
+            }
+            &__pass {
+              .id {
+                margin-left: 1em;
+                display: block;
+              }
+            }
+          }
         }
       }
       &__content2 {
-        margin-top: 1em;
         display: flex;
-        &__text {
-          height: 10vh;
+        margin-top: 1em;
+        &__link {
           width: 30vw;
-          margin: auto;
-          display: block;
-          text-align: 3em;
-          text-decoration: none;
+          &__text {
+            margin-bottom: 1em;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+          }
+          &__url {
+            margin-left: 5em;
+            margin-top: 2em;
+            font-size: 0.8em;
+            display: flex;
+            &__basic {
+              .id {
+                margin-left: 1em;;
+                display: block;
+              }
+            }
+          }
         }
       }
     }
